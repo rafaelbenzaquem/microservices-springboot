@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class CourseService {
+
     private final CourseRepository courseRepository;
 
     public Iterable<Course> list(Pageable pageable) {
